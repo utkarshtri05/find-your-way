@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --app-bg: #f4f7fb;
+  --app-bg-soft: rgba(255, 255, 255, 0.88);
+  --app-panel: rgba(255, 255, 255, 0.78);
+  --app-border: rgba(148, 163, 184, 0.22);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --shadow-color: rgba(15, 23, 42, 0.08);
+  --grid-line: rgba(148, 163, 184, 0.14);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --app-bg: #06111d;
+  --app-bg-soft: rgba(7, 18, 31, 0.9);
+  --app-panel: rgba(9, 18, 31, 0.84);
+  --app-border: rgba(148, 163, 184, 0.12);
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --shadow-color: rgba(2, 8, 23, 0.42);
+  --grid-line: rgba(71, 85, 105, 0.2);
+}
+
+@layer base {
+  * {
+    @apply border-[var(--app-border)];
+  }
+
+  body {
+    @apply min-h-screen bg-[var(--app-bg)] font-sans text-[var(--text-primary)] antialiased;
+    background-image: radial-gradient(circle at top left, rgba(16, 185, 129, 0.08), transparent 28%),
+      radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 24%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    @apply outline-none;
+  }
+
+  ::selection {
+    @apply bg-emerald-300/30;
+  }
+}
+
+@layer components {
+  .panel-surface {
+    @apply rounded-3xl border bg-[var(--app-panel)] shadow-soft backdrop-blur-xl;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center rounded-full border border-emerald-400/25 bg-emerald-400/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.22em] text-emerald-600 dark:text-emerald-300;
+  }
+
+  .surface-input {
+    @apply w-full rounded-2xl border bg-white/70 px-4 py-3 text-sm text-slate-900 transition focus:border-emerald-400 focus:ring-2 focus:ring-emerald-300/40 dark:bg-slate-900/60 dark:text-slate-100;
+  }
+
+  .surface-button {
+    @apply inline-flex items-center justify-center rounded-2xl border px-4 py-3 text-sm font-semibold transition;
+  }
+
+  .map-grid {
+    background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .range-track {
+    @apply h-2 w-full cursor-pointer appearance-none rounded-full bg-slate-200 dark:bg-slate-700;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.38);
+  border-radius: 999px;
+}

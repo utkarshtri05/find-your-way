@@ -1,0 +1,100 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" fill="#EAF7F4"/>
+  <rect x="30" y="30" width="1340" height="800" rx="32" fill="#F8FAFC"/>
+  <rect x="60" y="60" width="1280" height="84" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="60" y="170" width="292" height="620" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="382" y="170" width="656" height="620" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="1068" y="170" width="272" height="620" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="96" y="106" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Find Your Way</text>
+  <text x="96" y="224" fill="#10B981" font-family="Arial, sans-serif" font-size="18" font-weight="700">MISSION CONTROL</text>
+  <rect x="96" y="252" width="220" height="56" rx="18" fill="url(#paint0_linear_1_2)"/>
+  <text x="156" y="287" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Start Run</text>
+  <rect x="96" y="324" width="104" height="50" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <rect x="212" y="324" width="104" height="50" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="120" y="356" fill="#0F172A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Clear</text>
+  <text x="230" y="356" fill="#0F172A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Reset</text>
+  <text x="96" y="420" fill="#0F172A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Algorithm</text>
+  <rect x="96" y="444" width="220" height="56" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="120" y="479" fill="#64748B" font-family="Arial, sans-serif" font-size="18">Dijkstra</text>
+  <rect x="96" y="528" width="220" height="20" rx="10" fill="#E2E8F0"/>
+  <rect x="96" y="528" width="160" height="20" rx="10" fill="url(#paint1_linear_1_2)"/>
+  <text x="96" y="586" fill="#0F172A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Layout name</text>
+  <rect x="96" y="606" width="220" height="56" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="120" y="641" fill="#64748B" font-family="Arial, sans-serif" font-size="18">Weighted Maze A</text>
+  <rect x="96" y="688" width="104" height="50" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <rect x="212" y="688" width="104" height="50" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="124" y="720" fill="#0F172A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Save</text>
+  <text x="224" y="720" fill="#0F172A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Export</text>
+  <text x="412" y="224" fill="#0F172A" font-family="Arial, sans-serif" font-size="32" font-weight="700">Interactive path canvas</text>
+  <text x="412" y="256" fill="#475569" font-family="Arial, sans-serif" font-size="18">Active tool: wall | Launching shortest-path exploration.</text>
+  <rect x="422" y="292" width="576" height="448" rx="24" fill="#F1F5F9" stroke="#D8E1EA" stroke-width="2"/>
+  <g>
+    <rect x="454" y="324" width="30" height="30" rx="8" fill="#10B981"/>
+    <rect x="490" y="324" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="526" y="324" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="562" y="324" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="598" y="324" width="30" height="30" rx="8" fill="#0F172A"/>
+    <rect x="634" y="324" width="30" height="30" rx="8" fill="#0F172A"/>
+    <rect x="670" y="324" width="30" height="30" rx="8" fill="#0F172A"/>
+    <rect x="706" y="324" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="742" y="324" width="30" height="30" rx="8" fill="#F43F5E"/>
+  </g>
+  <g opacity="0.94">
+    <rect x="454" y="360" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="490" y="360" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="526" y="360" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="562" y="360" width="30" height="30" rx="8" fill="#0F172A"/>
+    <rect x="598" y="360" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="634" y="360" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="670" y="360" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="706" y="360" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="742" y="360" width="30" height="30" rx="8" fill="#E2E8F0"/>
+  </g>
+  <g opacity="0.94">
+    <rect x="454" y="396" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="490" y="396" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="526" y="396" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="562" y="396" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="598" y="396" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="634" y="396" width="30" height="30" rx="8" fill="#0F172A"/>
+    <rect x="670" y="396" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="706" y="396" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="742" y="396" width="30" height="30" rx="8" fill="#E2E8F0"/>
+  </g>
+  <g opacity="0.94">
+    <rect x="454" y="432" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="490" y="432" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="526" y="432" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="562" y="432" width="30" height="30" rx="8" fill="#E2E8F0"/>
+    <rect x="598" y="432" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="634" y="432" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="670" y="432" width="30" height="30" rx="8" fill="#7DD3FC"/>
+    <rect x="706" y="432" width="30" height="30" rx="8" fill="#FCD34D"/>
+    <rect x="742" y="432" width="30" height="30" rx="8" fill="#F43F5E"/>
+  </g>
+  <text x="1096" y="224" fill="#10B981" font-family="Arial, sans-serif" font-size="18" font-weight="700">RUN ANALYTICS</text>
+  <rect x="1096" y="252" width="216" height="96" rx="22" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <rect x="1096" y="364" width="216" height="96" rx="22" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <rect x="1096" y="476" width="216" height="96" rx="22" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <rect x="1096" y="588" width="216" height="160" rx="22" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="1122" y="290" fill="#64748B" font-family="Arial, sans-serif" font-size="16">Visited Nodes</text>
+  <text x="1122" y="326" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">148</text>
+  <text x="1122" y="402" fill="#64748B" font-family="Arial, sans-serif" font-size="16">Path Length</text>
+  <text x="1122" y="438" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">17</text>
+  <text x="1122" y="514" fill="#64748B" font-family="Arial, sans-serif" font-size="16">Path Cost</text>
+  <text x="1122" y="550" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">29</text>
+  <text x="1122" y="626" fill="#64748B" font-family="Arial, sans-serif" font-size="16">Live narration</text>
+  <text x="1122" y="668" fill="#0F172A" font-family="Arial, sans-serif" font-size="20">Tracing the final path</text>
+  <text x="1122" y="700" fill="#475569" font-family="Arial, sans-serif" font-size="18">through the weighted corridor.</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="96" y1="252" x2="316" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_1_2" x1="96" y1="528" x2="256" y2="548" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+</svg>
+
