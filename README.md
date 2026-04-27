@@ -2,7 +2,8 @@
 
 Find Your Way is a production-ready full-stack pathfinding visualizer built with React, Vite, Tailwind CSS, Framer Motion, Node.js, Express, JWT auth, bcrypt, and MongoDB. It ships with a polished authentication flow, an interactive shortest-path grid, saved user projects, and deployment-ready configuration for Vercel and Render.
 
-## UI previews
+##LIve Preview-
+https://find-your-way-eight.vercel.app
 
 ### Login / signup experience
 ![Login preview](./docs/login-preview.svg)
